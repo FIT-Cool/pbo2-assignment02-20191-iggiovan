@@ -117,7 +117,10 @@
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </GridPane.margin>
                         </Button>
-                        <ComboBox fx:id="downCat" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <ComboBox fx:id="downCat" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <padding>
+                              <Insets top="-3.0" />
+                           </padding></ComboBox>
                      </children>
                   </GridPane>
                </children>
